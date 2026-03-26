@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "building-a-personal-site-that-can-last",
+    "title": "Building a personal site that can outlast the trend cycle",
+    "description": "A personal website should survive aesthetic shifts, new frameworks, and your own changing interests. That only happens when content structure comes first.",
+    "publishedAt": "2026-03-26T00:00:00.000Z",
+    "tags": [
+      "product",
+      "web",
+      "writing"
+    ],
+    "featured": true,
+    "excerpt": "The easiest way to ship a personal website is to treat it like a one-week design sprint. The easiest way to regret it is exactly the same. Most personal sites fail for one of two r…",
+    "readingTime": 2,
+    "body": "The easiest way to ship a personal website is to treat it like a one-week design sprint. The easiest way to regret it is exactly the same.\n\nMost personal sites fail for one of two reasons. Either they are so generic that they never become useful, or they are so over-designed that they collapse the first time you want to publish a real post. In both cases the problem is not visual polish. The problem is that the site was never modeled as a publishing system.\n\nFor me, a durable personal site has to satisfy a few simple rules:\n\n1. I should be able to publish without opening a component file.\n2. Every post needs a stable URL that I can share without explanation.\n3. The site needs to read well on a phone, not only on a 16-inch laptop.\n4. The design should carry a point of view without competing with the writing.\n\nThat is why I prefer a Markdown-first setup for a personal blog. It keeps the content portable. If I decide to move from one framework to another a year from now, the writing survives unchanged. The content is the asset. Everything else is delivery infrastructure.\n\nA second principle is that navigation should reflect how a person thinks, not how a template thinks. I want a home page that introduces the intent of the site, a writing index that behaves like an archive, and article pages that do not bury the actual text under decorative noise. The structure is almost boring on paper, which is exactly why it scales.\n\nDesign still matters. I like dense interfaces. I like editorial rhythm. I like a little glass, a little motion, a little atmosphere. But those choices only work when they sit on top of a system that remains legible after the novelty disappears.\n\nThat is the standard I want for this site: something personal enough to feel authored, and sturdy enough to still make sense after the next wave of fashionable interfaces moves on."
+  },
+  {
+    "slug": "designing-for-density-without-chaos",
+    "title": "Designing for density without making the page feel crowded",
+    "description": "Information-rich layouts are not the same thing as messy layouts. The difference is hierarchy, pacing, and the willingness to leave dead-simple components alone.",
+    "publishedAt": "2026-03-24T00:00:00.000Z",
+    "tags": [
+      "design",
+      "interface",
+      "systems"
+    ],
+    "featured": true,
+    "excerpt": "I have always been drawn to products that show more, sooner. Dense interfaces can feel alive in a way that minimal layouts often do not. They reward curiosity. They help you build…",
+    "readingTime": 2,
+    "body": "I have always been drawn to products that show more, sooner.\n\nDense interfaces can feel alive in a way that minimal layouts often do not. They reward curiosity. They help you build a mental model quickly. They reduce unnecessary navigation. But density is only valuable when it increases comprehension. If it increases friction, it is just noise wearing an intelligent costume.\n\nThe most common mistake is confusing compression with hierarchy. Shrinking type, tightening margins, and stacking more boxes onto the screen does not make an interface information-rich. It makes it harder to read.\n\nDensity works when three things are true:\n\n## 1. The page has a clear entry point\n\nEvery screen needs an obvious place to start. On a blog, that is usually the headline, summary, and the first meaningful group of posts. If the eye has no anchor, the user has to negotiate the layout before they can absorb the content.\n\n## 2. Repetition is controlled\n\nRepeated components should feel dependable, not decorative. When every card has a different accent treatment, every list turns into a negotiation. I would rather spend my expressive energy on the overall atmosphere than on making every individual block shout for attention.\n\n## 3. The layout changes pace\n\nA dense page needs intervals. A wide hero, a quiet summary block, a single featured card, or even a deliberate pocket of empty space can reset the eye. Rhythm matters more than minimalism.\n\nThis is especially important on mobile. Desktop density can rely on multiple columns and peripheral context. Mobile density has to sequence attention. The interface still needs to feel rich, but it cannot demand simultaneous reading from every part of the screen.\n\nThat is why I prefer editorial density over dashboard density for a personal site. Editorial density assumes the reader is moving through meaning. Dashboard density assumes the reader is monitoring state. They are not the same job.\n\nWhen the goal is writing, the design should be ambitious enough to feel authored and quiet enough to disappear once the reader starts reading. That balance is harder than flamboyant minimalism, but it ages much better."
+  },
+  {
+    "slug": "why-markdown-beats-a-cms-at-the-beginning",
+    "title": "Why Markdown beats a CMS at the beginning",
+    "description": "A CMS becomes useful when publishing volume justifies it. Before that point, a simple Markdown workflow is usually faster, cheaper, and more durable.",
+    "publishedAt": "2026-03-21T00:00:00.000Z",
+    "tags": [
+      "workflow",
+      "writing",
+      "tooling"
+    ],
+    "featured": false,
+    "excerpt": "When people say they want a “real blog,” they often mean they want a CMS. What they usually need is a stable publishing loop. Those are not the same thing. A CMS is useful when you…",
+    "readingTime": 2,
+    "body": "When people say they want a “real blog,” they often mean they want a CMS. What they usually need is a stable publishing loop.\n\nThose are not the same thing.\n\nA CMS is useful when you have multiple editors, a review process, structured content dependencies, or a strong need for non-technical publishing. None of those conditions apply to most personal sites. A personal blog usually has one author, a small number of content types, and a strong need for portability.\n\nThat is why I start with Markdown.\n\nMarkdown has a few advantages that matter immediately:\n\n- The writing stays readable in raw form.\n- Version control becomes automatic.\n- Moving between frameworks is dramatically easier.\n- The content model stays honest because you can see it directly.\n\nThere is also a psychological advantage. Markdown keeps the publishing act close to the writing act. There are fewer panels, fewer configuration detours, and fewer decisions that pretend to be productive. You write, commit, preview, publish.\n\nThis does not mean CMS tools are bad. It means they solve a later problem. They become worth the complexity when the bottleneck shifts from authoring to coordination. If the bottleneck is still “I do not publish consistently,” then adding a CMS often creates the wrong kind of sophistication.\n\nThe rule I like is simple: choose the smallest system that makes publishing feel inevitable. For a single-author blog, Markdown wins that argument more often than people admit.\n\nWhen the constraints change, you can migrate. That option is exactly why starting with portable files is such a good default."
+  },
+  {
+    "slug": "tools-should-remove-drag-not-add-theater",
+    "title": "Tools should remove drag, not add theater",
+    "description": "Good tooling makes the important path shorter. Bad tooling creates a feeling of sophistication while quietly multiplying friction.",
+    "publishedAt": "2026-03-18T00:00:00.000Z",
+    "tags": [
+      "tooling",
+      "engineering",
+      "product"
+    ],
+    "featured": false,
+    "excerpt": "There is a kind of tool that looks impressive in demos and feels exhausting in daily use. It usually has one or more of these symptoms: too many states, too many surface-level opti…",
+    "readingTime": 2,
+    "body": "There is a kind of tool that looks impressive in demos and feels exhausting in daily use.\n\nIt usually has one or more of these symptoms: too many states, too many surface-level options, too much ceremony before you can do obvious work, and a persistent need to explain itself. The problem is not complexity by itself. Some tasks are genuinely complex. The problem is performative complexity.\n\nI care about tools that reduce drag in the path I actually repeat.\n\nFor a writing system, that means:\n\n- opening a draft quickly\n- previewing it without waiting\n- publishing it without hunting through settings\n- trusting that the output will remain stable\n\nFor a frontend system, it means something similar:\n\n- components are easy to find\n- styles are consistent without becoming rigid\n- build steps are boring\n- debugging feels local instead of mystical\n\nThe reason I keep returning to simpler stacks is not nostalgia. It is throughput. When the tool gets out of the way, your standards can go up because your energy is not being spent on infrastructure theater.\n\nThat is also why I think personal websites deserve engineering restraint. You do not need enterprise machinery to publish a thoughtful essay. You need a setup that does not punish you for wanting to publish one more paragraph today.\n\nThe strongest compliment I can pay a tool is that it lets me stop thinking about the tool. Everything else is secondary."
+  }
+]

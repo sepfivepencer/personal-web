@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Sepfive Pencer</title>
+    <link>https://www.sepfivepencer.org</link>
+    <description>A personal website about building calm digital products, thoughtful interfaces, and durable systems for the web.</description>
+    <language>en-us</language>
+    <item>
+      <title>Building a personal site that can outlast the trend cycle</title>
+      <link>https://www.sepfivepencer.org/writing/building-a-personal-site-that-can-last</link>
+      <guid>https://www.sepfivepencer.org/writing/building-a-personal-site-that-can-last</guid>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 GMT</pubDate>
+      <description>A personal website should survive aesthetic shifts, new frameworks, and your own changing interests. That only happens when content structure comes first.</description>
+    </item>
+    <item>
+      <title>Designing for density without making the page feel crowded</title>
+      <link>https://www.sepfivepencer.org/writing/designing-for-density-without-chaos</link>
+      <guid>https://www.sepfivepencer.org/writing/designing-for-density-without-chaos</guid>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
+      <description>Information-rich layouts are not the same thing as messy layouts. The difference is hierarchy, pacing, and the willingness to leave dead-simple components alone.</description>
+    </item>
+    <item>
+      <title>Why Markdown beats a CMS at the beginning</title>
+      <link>https://www.sepfivepencer.org/writing/why-markdown-beats-a-cms-at-the-beginning</link>
+      <guid>https://www.sepfivepencer.org/writing/why-markdown-beats-a-cms-at-the-beginning</guid>
+      <pubDate>Sat, 21 Mar 2026 00:00:00 GMT</pubDate>
+      <description>A CMS becomes useful when publishing volume justifies it. Before that point, a simple Markdown workflow is usually faster, cheaper, and more durable.</description>
+    </item>
+    <item>
+      <title>Tools should remove drag, not add theater</title>
+      <link>https://www.sepfivepencer.org/writing/tools-should-remove-drag-not-add-theater</link>
+      <guid>https://www.sepfivepencer.org/writing/tools-should-remove-drag-not-add-theater</guid>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 GMT</pubDate>
+      <description>Good tooling makes the important path shorter. Bad tooling creates a feeling of sophistication while quietly multiplying friction.</description>
+    </item>
+  </channel>
+</rss>
