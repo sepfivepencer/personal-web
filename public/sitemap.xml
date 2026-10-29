@@ -2,15 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.sepfivepencer.org/</loc>
-    <lastmod>2026-03-26T16:42:19.614Z</lastmod>
+    <lastmod>2026-10-29T16:32:00.938Z</lastmod>
   </url>
   <url>
     <loc>https://www.sepfivepencer.org/writing</loc>
-    <lastmod>2026-03-26T16:42:19.614Z</lastmod>
+    <lastmod>2026-10-29T16:32:00.938Z</lastmod>
   </url>
   <url>
     <loc>https://www.sepfivepencer.org/about</loc>
-    <lastmod>2026-03-26T16:42:19.614Z</lastmod>
+    <lastmod>2026-10-29T16:32:00.938Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.sepfivepencer.org/writing/starting-ai-research-on-m1</loc>
+    <lastmod>2026-10-29T00:00:00.000Z</lastmod>
   </url>
   <url>
     <loc>https://www.sepfivepencer.org/writing/building-a-personal-site-that-can-last</loc>
