@@ -2,6 +2,7 @@ import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import matter from 'gray-matter';
 import { siteConfig } from '../src/content/site';
+import { estimateReadingTime } from '../src/lib/format';
 
 type Frontmatter = {
   title?: string;
@@ -33,11 +34,6 @@ function escapeXml(value: string) {
     .replaceAll('>', '&gt;')
     .replaceAll('"', '&quot;')
     .replaceAll("'", '&apos;');
-}
-
-function estimateReadingTime(content: string) {
-  const wordCount = content.trim().split(/\s+/).filter(Boolean).length;
-  return Math.max(1, Math.ceil(wordCount / 220));
 }
 
 function buildExcerpt(content: string) {
