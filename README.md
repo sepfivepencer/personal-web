@@ -41,6 +41,12 @@ npm install
 npm run dev
 ```
 
+## 内容元数据检查
+
+运行 `npm run test` 可检查发布日期在不同时区保持一致，以及中文、英文和混合正文的阅读时长估算。`npm run check` 会运行这些检查、TypeScript 检查和生产构建。
+
+阅读时长按每分钟 400 个汉字、220 个其他语言词项估算，是页面显示值。发布日期使用 UTC 显示，以保留 Markdown 日期的日历含义。
+
 ## Build
 
 ```bash
